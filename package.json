@@ -15,8 +15,6 @@
 		"build": "node index.js",
 		"generate": "node index.js",
 		"rarity": "node utils/rarity.js",
-		"preview": "node utils/preview.js",
-		"pixelate": "node utils/pixelate.js",
 		"update_info": "node utils/update_info.js",
 		"preview_gif": "node utils/preview_gif.js"
 	},

@@ -54,7 +54,7 @@ function timer(ms) {
 
 async function fetchWithRetry(meta) {
 	await timer(TIMEOUT)
-	return new Promise((resolve, reject) => {
+	return new Promise(resolve => {
 		const fetch_retry = _meta => {
 			let url = 'https://api.nftport.xyz/v0/mints/customizable'
 
